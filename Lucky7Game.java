@@ -23,7 +23,7 @@ public class Lucky7Game{
 
         //Main game loop
         while (money > 0){
-            money==;
+            money--;
             int sevens = 0;
 
             System.out.println("Drawing 3 numbers...");
@@ -69,6 +69,4 @@ public class Lucky7Game{
         in.close();
     }
 
-        }
-    }
 }
