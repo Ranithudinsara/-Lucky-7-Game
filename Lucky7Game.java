@@ -28,7 +28,13 @@ public class Lucky7Game{
 
             System.out.println("Drawing 3 numbers...");
 
-
+            for (int i = 0; i < 3; i++) {
+                int number = random.nextInt(10) + 1; //For loop to get 3 random numbers from 1 - 10
+                System.out.println(number);
+                if (number == luckyNumber) {
+                    sevens++;
+                }
+            }
 
 
         }
