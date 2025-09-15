@@ -20,5 +20,17 @@ public class Lucky7Game{
         in.nextLine();
 
         System.out.println("Game starting with " + money + "€\n");
+
+        //Main game loop
+        while (money > 0){
+            money==;
+            int sevens = 0;
+
+            System.out.println("Drawing 3 numbers...");
+
+
+
+
+        }
     }
 }
